@@ -1,6 +1,6 @@
 extension Int {
   // Add an instance method
-  func isPrime() -> Bool {
+  public func isPrime() -> Bool {
     // No prime numbers are less than 2
     if self < 2 { return false }
 
