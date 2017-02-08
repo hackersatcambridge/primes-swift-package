@@ -1,5 +1,9 @@
+// Here we demonstrate some simple functional test cases
+// (functional in that it tests the function rather than the performance of the package)
+
+// XCTest is a unit testing framework, also part of the Swift open source project
 import XCTest
-@testable import Primes
+import Primes
 
 class PrimesTests: XCTestCase {
     func testExample() {
